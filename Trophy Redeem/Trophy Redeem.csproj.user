@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="src\views\DeathMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="src\views\PauseMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="src\views\Levelselect.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="src\views\InGameOverlay.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="src\views\RenderingCanvas.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="src\views\Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="src\views\DeathMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="src\views\PauseMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="src\views\Levelselect.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="src\views\InGameOverlay.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="src\views\RenderingCanvas.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="src\views\Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
