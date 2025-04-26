@@ -1,6 +1,6 @@
 # Trophy Redeem
 
-2D Platformer
+2D Platformer created during a Software Engineering assignment.
 
 ***
 
